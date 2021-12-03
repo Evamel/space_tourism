@@ -7,4 +7,11 @@
 body{
     background-image: url("../img/background-home-desktop.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Barlow, sans-serif;
+
+    h1{
+        font-family: Bellefair, serif;
+    }
 }
