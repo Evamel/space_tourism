@@ -48,15 +48,15 @@ body{
             border-radius: 50%;
             cursor: pointer;
 
-            &:before{
-                content: "";
-                background-color: red;
-            }
+            // &:before{
+            //     content: "";
+            //     background-color: red;
+            // }
 
             &:hover{
                 animation: pulse 1300ms;
             } 
-        } 
+        }
     }
 }
 

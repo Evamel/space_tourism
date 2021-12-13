@@ -4,7 +4,6 @@ body{
     box-sizing: border-box;
 }
 
-
 header{
     display: flex;
     justify-content: space-around;
@@ -19,16 +18,20 @@ header{
     }
 
     .line hr{
-        border: 0.5px solid white;
-        width: 500px;
+        position: absolute;
+        
+        width: 550px;
         opacity: 0.33;
         margin-top: 45px;
+        margin-left: -215px;
+        z-index: 2;
     }
 
     .nav{
         backdrop-filter: blur(1.5rem);
         letter-spacing: .2rem;
         width: 55%;
+        padding-left: 50px;
 
         ul{
             display: flex;
@@ -42,10 +45,6 @@ header{
                 color:white;
                 text-transform: uppercase;
 
-                &:hover{
-                    border-bottom: 3px solid white;
-                }
-
                 span{
                     font-weight: 700;
                     margin-right: .5em;
@@ -55,6 +54,11 @@ header{
                     text-decoration: none;
                     color: white;
                     opacity: 0.5;
+
+                    &:hover{
+                        border-bottom: 3px solid white;
+                        padding-bottom: 25px;
+                    }
                 }
             }
         }

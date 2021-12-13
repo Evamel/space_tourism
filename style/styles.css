@@ -17,15 +17,18 @@ header .logo-nav {
   margin-top: 20px;
 }
 header .line hr {
-  border: 0.5px solid white;
-  width: 500px;
+  position: absolute;
+  width: 550px;
   opacity: 0.33;
   margin-top: 45px;
+  margin-left: -215px;
+  z-index: 2;
 }
 header .nav {
   backdrop-filter: blur(1.5rem);
   letter-spacing: 0.2rem;
   width: 55%;
+  padding-left: 50px;
 }
 header .nav ul {
   display: flex;
@@ -39,9 +42,6 @@ header .nav ul li {
   color: white;
   text-transform: uppercase;
 }
-header .nav ul li:hover {
-  border-bottom: 3px solid white;
-}
 header .nav ul li span {
   font-weight: 700;
   margin-right: 0.5em;
@@ -50,6 +50,10 @@ header .nav ul li a {
   text-decoration: none;
   color: white;
   opacity: 0.5;
+}
+header .nav ul li a:hover {
+  border-bottom: 3px solid white;
+  padding-bottom: 25px;
 }
 
 * {
@@ -98,10 +102,6 @@ body main .exploreBtn {
   width: 300px;
   border-radius: 50%;
   cursor: pointer;
-}
-body main .exploreBtn:before {
-  content: "";
-  background-color: red;
 }
 body main .exploreBtn:hover {
   animation: pulse 1300ms;
