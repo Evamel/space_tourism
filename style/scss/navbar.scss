@@ -18,9 +18,8 @@ header{
     }
 
     .line hr{
-        position: absolute;
-        
-        width: 550px;
+        position: absolute;   
+        width: 515px;
         opacity: 0.33;
         margin-top: 45px;
         margin-left: -215px;
@@ -28,6 +27,7 @@ header{
     }
 
     .nav{
+        background: hsl( 0 0 100% / 0.05);
         backdrop-filter: blur(1.5rem);
         letter-spacing: .2rem;
         width: 55%;

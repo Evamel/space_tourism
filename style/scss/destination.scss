@@ -1,0 +1,118 @@
+
+.destination-page{
+    background-image: url("/img/background-destination-desktop.jpg");
+}
+
+
+
+
+.title-destination{
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    margin-left: 300px;
+    margin-top: 100px;
+
+    .num-title{
+        color: #474A53;
+        font-weight: bold;
+    }
+}
+
+.destination{
+    margin: 100px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "img-plan img-plan info-destination info-destination"
+      "img-plan img-plan info-destination info-destination";
+
+    .img-plan { 
+        grid-area: img-plan; 
+        margin-left: 150px;
+    }
+
+    .info-destination{
+        grid-area: info-destination;
+        margin-left: 130px;
+        margin-top: -75px;
+        ul{
+            display: flex;
+            list-style: none;
+            height: 90px;
+            place-items: center;
+            margin-left: -45px;
+            
+            li{
+                margin-left: 50px; 
+                text-transform: uppercase;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-family: Barlow Condensed;
+                    font-size: 20px;
+                    letter-spacing: 0.2rem;
+
+                    &:hover{
+                        border-bottom: 3px solid gray;
+                        padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+
+        h1{
+            text-transform: uppercase;
+            font-size: 100px;
+            font-family: "Bellefair", serif;
+            font-weight: 200;
+            padding-bottom: 20px;
+        }
+
+        p{
+            font-family: "Barlow", sans-serif;
+            font-size: 18px;
+            width: 480px;
+        }
+
+        .line{
+            opacity: 0.33;
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+
+        .info-dest{
+            display: grid;
+            grid-template-areas: 
+            "distance time";
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr; 
+            gap: 0px 0px;
+            text-transform: uppercase; 
+
+            .distance{
+                grid-area: distance;
+                text-align: left;
+
+                .km{
+                    font-size: 28px;
+                }
+            }
+
+            .time{
+                grid-area: time;
+                text-align: left;
+
+                .days{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
