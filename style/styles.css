@@ -216,4 +216,56 @@ body main .exploreBtn:hover {
   font-size: 28px;
 }
 
+.crew-page {
+  background-image: url("/img/background-crew-desktop.jpg");
+  background-size: cover;
+}
+.crew-page .crew-nb {
+  margin: 100px;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+  margin-left: 150px;
+}
+.crew-page .crew-nb .num-title {
+  font-weight: 600;
+  color: gray;
+  padding-right: 10px;
+}
+.crew-page .container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100%;
+}
+.crew-page .container .text-block {
+  grid-area: 1/1/2/2;
+  margin: 50px;
+}
+.crew-page .container .text-block .crew-role {
+  font-family: Bellefair;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 0.2rem;
+  margin-left: 150px;
+}
+.crew-page .container .text-block .crew-name {
+  font-family: Bellfair;
+  font-size: 58px;
+  text-transform: uppercase;
+  margin-left: 150px;
+}
+.crew-page .container .text-block .crew-text {
+  margin-left: 150px;
+  width: 600px;
+}
+.crew-page .container .crew-img {
+  grid-area: 1/2/2/3;
+  margin-left: 150px;
+}
+
 /*# sourceMappingURL=styles.css.map */

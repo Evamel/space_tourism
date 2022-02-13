@@ -1,0 +1,61 @@
+.crew-page{
+    background-image: url('/img/background-crew-desktop.jpg');
+    background-size: cover;
+
+    .crew-nb{
+        margin: 100px;
+        font-family: Barlow Condensed;
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        font-weight: 400;
+        margin-left: 150px;
+
+        .num-title{
+            font-weight: 600;
+            color: gray;
+            padding-right: 10px;
+        }
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        // grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 100%;
+
+        .text-block{
+            grid-area: 1 / 1 / 2 / 2;
+            margin: 50px;
+    
+            .crew-role{
+                font-family: Bellefair;
+                font-size: 32px;
+                text-transform: uppercase;
+                color: gray;
+                letter-spacing: 0.2rem;
+                margin-left: 150px;
+            }
+
+            .crew-name{
+                font-family: Bellfair;
+                font-size: 58px;
+                text-transform: uppercase;
+                margin-left: 150px;
+            }
+
+            .crew-text{
+                margin-left: 150px;
+                width: 600px;
+            }
+        }
+
+        .crew-img{
+            grid-area: 1 / 2 / 2 / 3;
+            margin-left: 150px;
+        }
+    }
+
+}
