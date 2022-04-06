@@ -258,10 +258,17 @@ body main .exploreBtn:hover {
   font-size: 58px;
   text-transform: uppercase;
   margin-left: 150px;
+  margin-top: 20px;
 }
 .crew-page .container .text-block .crew-text {
   margin-left: 150px;
   width: 600px;
+  margin-top: 50px;
+  font-family: Barlow, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 .crew-page .container .crew-img {
   grid-area: 1/2/2/3;
