@@ -63,30 +63,30 @@
             grid-area: 1 / 2 / 2 / 3;
             margin-left: 150px;
         }
-    }
 
-
-    .carousel{
-        position: relative;
-        padding: 20px 0;
-        position: absolute;
-        text-align: center;
-
-          .carousel-btn{
-                width: 20px;
-                height: 20px;
-                display: inline-block;
-                background: rgba(255, 255, 255, 0.2);
-                border-radius: 50%;
-                margin: 0 5px;
-                cursor: pointer;
+        .carousel{
+            padding-top: 50px;
+            margin-left: 150px;
+            
+                .carousel-btn{
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    background: rgba(255, 255, 255, 0.2);
+                    border-radius: 50%;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    }
+    
+                .carousel-btn-selected{
+                    background: rgba(255, 255, 255, 0.5);
                 }
-
-            .carousel-btn-selected{
-                background: rgba(255, 255, 255, 0.5);
-            }
-        
+            
+        }
     }
+
+
+    
 
 }
 

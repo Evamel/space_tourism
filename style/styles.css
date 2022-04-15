@@ -274,13 +274,11 @@ body main .exploreBtn:hover {
   grid-area: 1/2/2/3;
   margin-left: 150px;
 }
-.crew-page .carousel {
-  position: relative;
-  padding: 20px 0;
-  position: absolute;
-  text-align: center;
+.crew-page .container .carousel {
+  padding-top: 50px;
+  margin-left: 150px;
 }
-.crew-page .carousel .carousel-btn {
+.crew-page .container .carousel .carousel-btn {
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -289,7 +287,7 @@ body main .exploreBtn:hover {
   margin: 0 5px;
   cursor: pointer;
 }
-.crew-page .carousel .carousel-btn-selected {
+.crew-page .container .carousel .carousel-btn-selected {
   background: rgba(255, 255, 255, 0.5);
 }
 
