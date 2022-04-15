@@ -68,31 +68,24 @@
 
     .carousel{
         position: relative;
+        padding: 20px 0;
+        position: absolute;
+        text-align: center;
 
-        .carousel-item{
-            color: white;
-            margin-left: 15px;
-        }
-
-        .carousel-nav{
-            padding: 20px 0;
-            position: absolute;
-            text-align: center;
-
-                .carousel-btn{
-                    width: 20px;
-                    height: 20px;
-                    display: inline-block;
-                    background: rgba(255, 255, 255, 0.2);
-                    border-radius: 50%;
-                    margin: 0 5px;
+          .carousel-btn{
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 50%;
+                margin: 0 5px;
+                cursor: pointer;
                 }
 
-                .carousel-btn-selected{
-                    background: rgba(255, 255, 255, 0.5);
-
-                }
-        }
+            .carousel-btn-selected{
+                background: rgba(255, 255, 255, 0.5);
+            }
+        
     }
 
 }

@@ -276,25 +276,20 @@ body main .exploreBtn:hover {
 }
 .crew-page .carousel {
   position: relative;
-}
-.crew-page .carousel .carousel-item {
-  color: white;
-  margin-left: 15px;
-}
-.crew-page .carousel .carousel-nav {
   padding: 20px 0;
   position: absolute;
   text-align: center;
 }
-.crew-page .carousel .carousel-nav .carousel-btn {
+.crew-page .carousel .carousel-btn {
   width: 20px;
   height: 20px;
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   margin: 0 5px;
+  cursor: pointer;
 }
-.crew-page .carousel .carousel-nav .carousel-btn-selected {
+.crew-page .carousel .carousel-btn-selected {
   background: rgba(255, 255, 255, 0.5);
 }
 
