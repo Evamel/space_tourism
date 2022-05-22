@@ -334,6 +334,9 @@ body main .exploreBtn:hover {
   background-color: transparent;
   color: white;
 }
+.techno-page .container-techno .nav-techno .nav-num:hover, .techno-page .container-techno .nav-techno .nav-num-selected:hover {
+  cursor: pointer;
+}
 .techno-page .container-techno .nav-techno .nav-num-selected {
   background-color: aliceblue;
   border: none;

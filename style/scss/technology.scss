@@ -42,6 +42,10 @@
                 font-family: Barlow Condensed;
                 background-color: transparent;
                 color: white;
+                
+                &:hover{
+                    cursor: pointer;
+                }
             }
 
             .nav-num-selected{
