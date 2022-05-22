@@ -3,21 +3,93 @@
     background-size: cover;
 
     .techno-nb{
-        font-size: 2rem;
+        margin: 100px;
+        font-family: Barlow Condensed;
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        font-weight: 400;
+        margin-left: 150px;
 
-        .num-title-tecnho{
-            font-weight: 100
+        .num-title-techno{
+            font-weight: 600;
+            color: gray;
+            padding-right: 10px;
         }
     }
 
-    .nav-techno{
-        .nav-num{
-        color: darkblue;
-        background-color: white;
-        height: 10px;
-        width: 10px;
-        border-radius: 50%;
-        padding: 2rem;
+    .container-techno{
+        display: grid; 
+        grid-template-columns: 1fr 1.5fr 1.5fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: "nav-techno text-techno img-techno";
+        margin-top: 10rem;
+
+        .nav-techno{ 
+            grid-area: nav-techno; 
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+
+            .nav-num{
+                font-size: 3rem;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                margin: 2rem;
+                font-weight: 100;
+                font-family: Barlow Condensed;
+                background-color: transparent;
+                color: white;
+            }
+
+            .nav-num-selected{
+                @extend.nav-num;
+                background-color: aliceblue;
+                border: none;
+                color: rgba(0, 0, 0, 0.8)
+            }
         }
-    }
+        
+        .text-techno{ 
+            grid-area: text-techno;
+            margin-left: auto;
+            margin-right: auto;
+            
+            .term{
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                color: white;
+                letter-spacing: 0.2rem;
+                padding-bottom: 5vh;
+            }
+
+            .title-techno{
+                font-family: Bellfair;
+                font-size: 58px;
+                text-transform: uppercase;
+            }
+
+            .exp-techno{
+                width: 500px;
+                margin-top: 50px;
+                font-family: Barlow, sans-serif;
+                font-size: 1rem;
+                line-height:27px;
+                font-weight: 400;
+                letter-spacing: 0.1rem;
+                color: gray;
+            }
+        }
+
+        .img-techno{
+            grid-area: img-techno;
+            
+            img{
+                float: right;
+                width: 500px;
+            }
+        }
+      }
 };
