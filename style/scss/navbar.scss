@@ -64,3 +64,45 @@ header{
         }
     }
 }
+
+
+
+// RESPONSIVE
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+ 
+    header{
+        .logo-nav{
+            visibility: hidden;
+        }
+    
+        .line hr{
+            visibility: hidden;
+        }
+    
+        .nav{
+            padding-left: 0;
+            height: 150px;
+    
+            ul{
+                display: block;
+                height: 90px;
+                width: 100%;
+                
+                li{
+                    margin-left: 0;
+                    padding-bottom: 8px;
+                    text-align: right;
+                    padding-right: 20px;
+    
+                    a{
+                        &:hover{
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+  }

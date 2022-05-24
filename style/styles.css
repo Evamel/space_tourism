@@ -57,6 +57,32 @@ header .nav ul li a:hover {
   padding-bottom: 25px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  header .logo-nav {
+    visibility: hidden;
+  }
+  header .line hr {
+    visibility: hidden;
+  }
+  header .nav {
+    padding-left: 0;
+    height: 150px;
+  }
+  header .nav ul {
+    display: block;
+    height: 90px;
+    width: 100%;
+  }
+  header .nav ul li {
+    margin-left: 0;
+    padding-bottom: 8px;
+    text-align: right;
+    padding-right: 20px;
+  }
+  header .nav ul li a:hover {
+    padding-bottom: 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -116,6 +142,52 @@ body main .exploreBtn:hover {
   100% {
     transform: scale(1.35);
     opacity: 0.75;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    background-image: url("../img/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Barlow, sans-serif;
+  }
+  body main {
+    margin-top: 250px;
+    color: white;
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-around;
+  }
+  body main .intro {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  body main h1 {
+    font-family: Bellefair, serif;
+    font-size: 118px;
+    text-transform: uppercase;
+  }
+  body main .text {
+    font-family: Barlow, sans-serif;
+    font-size: 18px;
+    width: 480px;
+  }
+  body main .exploreBtn {
+    font-size: 32px;
+    font-family: Bellefair, serif;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  body main .exploreBtn:hover {
+    animation: pulse 1300ms;
   }
 }
 .destination-page {
