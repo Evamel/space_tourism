@@ -146,45 +146,32 @@ body main .exploreBtn:hover {
 }
 @media screen and (min-width: 300px) and (max-width: 768px) {
   body {
-    background-image: url("../img/background-home-desktop.jpg");
+    background-image: url("../img/background-home-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
-    font-family: Barlow, sans-serif;
   }
   body main {
-    margin-top: 250px;
-    color: white;
-    line-height: 1.8;
-    display: flex;
+    margin-top: 150px;
+    display: block;
     justify-content: space-around;
+    margin-left: 0;
   }
   body main .intro {
     font-size: 28px;
-    text-transform: uppercase;
-    font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
   }
   body main h1 {
-    font-family: Bellefair, serif;
-    font-size: 118px;
-    text-transform: uppercase;
+    text-align: center;
   }
   body main .text {
-    font-family: Barlow, sans-serif;
-    font-size: 18px;
-    width: 480px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
   }
   body main .exploreBtn {
-    font-size: 32px;
-    font-family: Bellefair, serif;
-    text-transform: uppercase;
-    background-color: white;
-    color: black;
-    padding: 20px;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
   }
   body main .exploreBtn:hover {
     animation: pulse 1300ms;
