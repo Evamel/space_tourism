@@ -546,4 +546,51 @@ body main .exploreBtn:hover {
   width: 500px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .techno-page {
+    background-image: url("/img/background-technology-mobile.jpg");
+  }
+  .techno-page .techno-nb {
+    margin: 0;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  .techno-page .container-techno {
+    display: block;
+    margin-top: 5rem;
+  }
+  .techno-page .container-techno .nav-techno {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+  }
+  .techno-page .container-techno .text-techno .term {
+    padding-bottom: 5vh;
+    padding-top: 6vh;
+    margin-left: 50px;
+  }
+  .techno-page .container-techno .text-techno .title-techno {
+    font-size: 56px;
+    text-align: center;
+  }
+  .techno-page .container-techno .text-techno .exp-techno {
+    width: 500px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .techno-page .container-techno .img-techno img {
+    float: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+    border-radius: 50%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

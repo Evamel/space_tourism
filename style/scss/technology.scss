@@ -97,3 +97,68 @@
         }
       }
 };
+
+
+
+// RESPONSIVE 
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+    .techno-page{
+        background-image: url('/img/background-technology-mobile.jpg');
+    
+        .techno-nb{
+            margin: 0;
+            font-size: 30px;
+            margin-left: 50px;
+            margin-top: 80px;
+        }
+    
+        .container-techno{
+            display: block;
+            margin-top: 5rem;
+    
+            .nav-techno{ 
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+                justify-content: center;
+            }
+            
+            .text-techno{ 
+                
+                .term{
+                    padding-bottom: 5vh;
+                    padding-top: 6vh;
+                    margin-left: 50px;
+                }
+    
+                .title-techno{
+                    font-size: 56px;
+                    text-align: center;
+                }
+    
+                .exp-techno{
+                    width: 500px;
+                    margin-top: 50px;
+                    font-size: 1.2rem;
+                    text-align: left;
+                    margin-left: 50px;
+                }
+            }
+    
+            .img-techno{
+                img{
+                    float: none;
+                    width: 500px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 50px;
+                    display: block;
+                    border-radius: 50%;
+                }
+            }
+          }
+    };
+
+}
