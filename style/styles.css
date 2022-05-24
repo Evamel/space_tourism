@@ -275,6 +275,69 @@ body main .exploreBtn:hover {
   font-size: 28px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .destination-page {
+    background-image: url("/img/background-destination-mobile.jpg");
+  }
+
+  .title-destination {
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    margin-left: 50px;
+  }
+
+  .destination {
+    margin-top: 50px;
+    display: block;
+  }
+  .destination .img-plan {
+    margin-left: 0;
+    z-index: -2;
+    margin-top: 80px;
+  }
+  .destination .info-destination {
+    margin-left: 0;
+    margin-top: -300px;
+    z-index: 1;
+  }
+  .destination .info-destination ul {
+    margin-left: 0;
+  }
+  .destination .info-destination ul li {
+    margin-left: 50px;
+  }
+  .destination .info-destination ul li a {
+    font-size: 25px;
+  }
+  .destination .info-destination ul li a:hover {
+    padding-bottom: 10px;
+  }
+  .destination .info-destination h1 {
+    text-align: center;
+    margin-top: 300px;
+  }
+  .destination .info-destination p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .destination .info-destination .line {
+    opacity: 0.33;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .destination .info-destination .info-dest .distance {
+    text-align: center;
+  }
+  .destination .info-destination .info-dest .distance .km {
+    font-size: 28px;
+  }
+  .destination .info-destination .info-dest .time {
+    text-align: center;
+  }
+  .destination .info-destination .info-dest .time .days {
+    font-size: 28px;
+  }
+}
 .crew-page {
   background-image: url("/img/background-crew-desktop.jpg");
   background-size: cover;

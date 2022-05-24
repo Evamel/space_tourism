@@ -116,3 +116,90 @@
         }
     }
 }
+
+
+
+
+// RESPONSIVE
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+
+    .destination-page{
+        background-image: url("/img/background-destination-mobile.jpg");
+    }
+    
+    .title-destination{
+        font-size: 30px;
+        letter-spacing: 0.2rem;
+        margin-left: 50px;
+    }
+    
+    .destination{
+        margin-top: 50px;
+        display: block;
+    
+        .img-plan { 
+            margin-left: 0;
+            z-index: -2;
+            margin-top: 80px;
+        }
+    
+        .info-destination{
+            margin-left: 0;
+            margin-top: -300px;
+            z-index: 1;
+            
+            ul{
+                margin-left: 0;
+                
+                li{
+                    margin-left: 50px; 
+    
+                    a{
+                        font-size: 25px;
+    
+                        &:hover{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+    
+            h1{
+                text-align: center;
+                margin-top: 300px;
+            }
+    
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+    
+            .line{
+                opacity: 0.33;
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .info-dest{
+    
+                .distance{
+                    text-align: center;
+    
+                    .km{
+                        font-size: 28px;
+                    }
+                }
+    
+                .time{
+                    text-align: center;
+    
+                    .days{
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
