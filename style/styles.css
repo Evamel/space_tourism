@@ -413,6 +413,53 @@ body main .exploreBtn:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .crew-page {
+    background-image: url("/img/background-crew-mobile.jpg");
+  }
+  .crew-page .crew-nb {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  .crew-page .container {
+    height: 100%;
+    display: block;
+  }
+  .crew-page .container .text-block {
+    margin: 0;
+  }
+  .crew-page .container .text-block .crew-role {
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  .crew-page .container .text-block .crew-name {
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .crew-page .container .text-block .crew-text {
+    margin-left: 50px;
+    width: 500px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .crew-page .container .crew-img {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .crew-page .container .carousel {
+    padding-top: 50px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .crew-page .container .carousel .carousel-btn {
+    width: 30px;
+    height: 30px;
+  }
+}
 .techno-page {
   background-image: url("/img/background-technology-desktop.jpg");
   background-size: cover;
